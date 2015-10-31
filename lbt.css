@@ -1,4 +1,4 @@
-.jp2ua.overlay {
+.lbt.overlay {
         position: absolute; /* important */
         top: 0px; /* start from top */
         left: 0px; /* start from left */
@@ -11,15 +11,16 @@
 	z-index: 1000;
 }
 
-.jp2ua.window {
-        position: absolute; /* important so we can position it on center later */
+.lbt.window {
+	margin-top: 3em;
+	margin-left: 3em;
         display: none; /* don't show it */
 
         /* styling bellow */
         color: #fff;
 	top: 0;
 
-	width: 400px;
+	width: 800px;
 
         border: 1px solid gray;
         background: #fff;
@@ -41,6 +42,13 @@
 	box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.1);	
 }
 
-.jp2ua.window label {
+.lbt.window label {
 	font-size: small;
+}
+#source {
+	height: 200px;
+}
+#destination {
+	height:200px;
+	font-size:2.5em;
 }
