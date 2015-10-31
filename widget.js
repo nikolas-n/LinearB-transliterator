@@ -297,7 +297,7 @@ var li2la = {
 			<table style="width: 100%;"> \
 				<tr> \
 					<td> \
-					<select style="width: 50%;" id="source-map"> \
+					<select style="width: 70%;" id="source-map"> \
 						<option value="la2li">Latin to Linear B</options> \
 						<option value="li2la">Linear B to Latin</options> \
 					</select> \
