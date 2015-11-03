@@ -1,4 +1,4 @@
-﻿(function( $ ){
+(function( $ ){
 
 	var la2li = {
 		"a": {
@@ -83,8 +83,11 @@
 				}
 			},
 			
+			"e": "𐀁",
 			"h": {"a":"𐁀"},
 			
+			"i": "𐀂",
+
 			"j": {
 				"a": "𐀊",
 				"e": "𐀋",
@@ -154,6 +157,7 @@
 				"w": {"e" : "𐁌", "o" : "𐁍"},
 				"y": {"a": "𐁋"}			
 			},
+			"u": "𐀄",
 			"w": {
 				"a": "𐀷",
 				"e": "𐀸",
@@ -292,7 +296,7 @@ var li2la = {
 	var htmlForm = ' \
 		<div class="lbt overlay"></div> \
 		<div class="lbt window"> \
-			<h3>Linear B transliterator</h3> \
+			<h3>Linear B transliterator - Μεταγραφέας για τη Γραμμική Β</h3> \
 			<hr /> \
 			<table style="width: 100%;"> \
 				<tr> \
