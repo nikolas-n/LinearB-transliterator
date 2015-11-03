@@ -1,3 +1,11 @@
+@font-face {
+  font-family: Noto Sans;
+  src: url('NotoSans-Regular.ttf');
+}
+@font-face {
+  font-family: Noto Sans Linear B;
+  src: url('NotoSansLinearB-Regular.ttf');
+}
 .lbt.overlay {
         position: absolute; /* important */
         top: 0px; /* start from top */
@@ -47,8 +55,29 @@
 }
 #source {
 	height: 200px;
+	font-family: "Noto Sans", "Noto Sans Linear B", sans-serif;
 }
 #destination {
 	height:200px;
 	font-size:2.5em;
+	font-family: "Noto Sans", "Noto Sans Linear B", sans-serif;
+}
+
+pre {
+	width:800px;
+	margin-left: 3em;
+	border: 1px solid black;
+	box-shadow: 1px 3px 5px;
+	padding: 1em;
+}
+h2 {
+	margin-left: 3em
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: grey;
 }
