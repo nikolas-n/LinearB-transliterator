@@ -2,10 +2,24 @@
 <head>
 	<title>Linear B transliterator - Μεταγραφέας για τη Γραμμική Β</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link rel="stylesheet" type="text/css" href="lbt.css" />	
+	<meta property="og:url" content="http://linear-b.kinezika.info" />
+	<meta property="og:title" content="Linear B transliterator - Μεταγραφέας για τη Γραμμική Β" />
+	<meta property="og:description" content="Phonetic transliteration from Latin to Linear B and vice versa" />
+	<meta property="og:image" content="http://linear-b.kinezika.info/woko.jpg" />
+	<link rel="stylesheet" type="text/css" href="lbt.css" />
+	<link rel="shortcut icon" href="favicon.ico" />	
 </head>
 <body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/el_GR/sdk.js#xfbml=1&version=v2.5";
+	  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
 	<a href="https://github.com/nikolas-n/LinearB-transliterator"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
+	<div id="wrapper">
 	<div id="lbt-activate">Show window (transliteration in popup)</div>
 	<div id="lbt-holder"></div>
 	<script type="text/javascript" src="jquery-1.7.2.js"></script>
@@ -14,10 +28,78 @@
 		$("#lbt-activate").lbt({
 			//"window-holder": "#lbt-holder",
 		});
-	</script>
-
-	<h2>Syllabograms - Συλλαβογράμματα</h2>
-	<a href="https://en.wikipedia.org/wiki/Linear_B">Reference</a>
+		
+function insertText(txt, elemID) {
+	elem = document.getElementById(elemID);
+	elem.value += txt;
+	translate(elem.value);
+	}
+</script>
+<br>a
+<input type="button" value="𐀀" onClick="insertText('𐀀','source');" />
+<input type="button" value="𐀅" onClick="insertText('𐀅','source');" />
+<input type="button" value="𐀊" onClick="insertText('𐀊','source');" />
+<input type="button" value="𐀏" onClick="insertText('𐀏','source');" />
+<input type="button" value="𐀔" onClick="insertText('𐀔','source');" />
+<input type="button" value="𐀙" onClick="insertText('𐀙','source');" />
+<input type="button" value="𐀞" onClick="insertText('𐀞','source');" />
+<input type="button" value="𐀣" onClick="insertText('𐀣','source');" />
+<input type="button" value="𐀨" onClick="insertText('𐀨','source');" />
+<input type="button" value="𐀭" onClick="insertText('𐀭','source');" />
+<input type="button" value="𐀲" onClick="insertText('𐀲','source');" />
+<input type="button" value="𐀷" onClick="insertText('𐀷','source');" />
+<input type="button" value="𐀼" onClick="insertText('𐀼','source');" />
+<br>e
+<input type="button" value="𐀁" onClick="insertText('𐀁','source');" />
+<input type="button" value="𐀆" onClick="insertText('𐀆','source');" />
+<input type="button" value="𐀋" onClick="insertText('𐀋','source');" />
+<input type="button" value="𐀐" onClick="insertText('𐀐','source');" />
+<input type="button" value="𐀕" onClick="insertText('𐀕','source');" />
+<input type="button" value="𐀚" onClick="insertText('𐀚','source');" />
+<input type="button" value="𐀟" onClick="insertText('𐀟','source');" />
+<input type="button" value="𐀤" onClick="insertText('𐀤','source');" />
+<input type="button" value="𐀩" onClick="insertText('𐀩','source');" />
+<input type="button" value="𐀮" onClick="insertText('𐀮','source');" />
+<input type="button" value="𐀳" onClick="insertText('𐀳','source');" />
+<input type="button" value="𐀸" onClick="insertText('𐀸','source');" />
+<input type="button" value="𐀽" onClick="insertText('𐀽','source');" />
+<br>i
+<input type="button" value="𐀂" onClick="insertText('𐀂','source');" />
+<input type="button" value="𐀇" onClick="insertText('𐀇','source');" />
+<input type="button" value="𐀑" onClick="insertText('𐀑','source');" />
+<input type="button" value="𐀖" onClick="insertText('𐀖','source');" />
+<input type="button" value="𐀛" onClick="insertText('𐀛','source');" />
+<input type="button" value="𐀠" onClick="insertText('𐀠','source');" />
+<input type="button" value="𐀥" onClick="insertText('𐀥','source');" />
+<input type="button" value="𐀪" onClick="insertText('𐀪','source');" />
+<input type="button" value="𐀯" onClick="insertText('𐀯','source');" />
+<input type="button" value="𐀴" onClick="insertText('𐀴','source');" />
+<input type="button" value="𐀹" onClick="insertText('𐀹','source');" />
+<br>o
+<input type="button" value="𐀃" onClick="insertText('𐀃','source');" />
+<input type="button" value="𐀈" onClick="insertText('𐀈','source');" />
+<input type="button" value="𐀍" onClick="insertText('𐀍','source');" />
+<input type="button" value="𐀒" onClick="insertText('𐀒','source');" />
+<input type="button" value="𐀗" onClick="insertText('𐀗','source');" />
+<input type="button" value="𐀜" onClick="insertText('𐀜','source');" />
+<input type="button" value="𐀡" onClick="insertText('𐀡','source');" />
+<input type="button" value="𐀦" onClick="insertText('𐀦','source');" />
+<input type="button" value="𐀫" onClick="insertText('𐀫','source');" />
+<input type="button" value="𐀰" onClick="insertText('𐀰','source');" />
+<input type="button" value="𐀵" onClick="insertText('𐀵','source');" />
+<input type="button" value="𐀺" onClick="insertText('𐀺','source');" />
+<input type="button" value="𐀿" onClick="insertText('𐀿','source');" />
+<br>u
+<input type="button" value="𐀄" onClick="insertText('𐀄','source');" />
+<input type="button" value="𐀉" onClick="insertText('𐀉','source');" />
+<input type="button" value="𐀓" onClick="insertText('𐀓','source');" />
+<input type="button" value="𐀘" onClick="insertText('𐀘','source');" />
+<input type="button" value="𐀝" onClick="insertText('𐀝','source');" />
+<input type="button" value="𐀢" onClick="insertText('𐀢','source');" />
+<input type="button" value="𐀬" onClick="insertText('𐀬','source');" />
+<input type="button" value="𐀱" onClick="insertText('𐀱','source');" />
+<input type="button" value="𐀶" onClick="insertText('𐀶','source');" />
+	<h3>Syllabograms - Συλλαβογράμματα</h3>
 	<pre>
 	-a		-e		-i		-o		-u	
 	𐀀	a	𐀁	e	𐀂	i	𐀃	o	𐀄	u
@@ -34,7 +116,17 @@ t-	𐀲	ta	𐀳	te	𐀴	ti	𐀵	to	𐀶	tu
 w-	𐀷	wa	𐀸	we	𐀹	wi	𐀺	wo		
 z-	𐀼	za	𐀽	ze			𐀿	zo		
 </pre>
-	<span style="margin-left:3em;">back to <a href="http://www.kinezika.info">kinezika.info</a></span>
+	<span>
+	<a href="https://en.wikipedia.org/wiki/Linear_B">reference</a> | 
+	<a href="https://www.google.com/get/noto/#sans-linb">font</a> | 
+	search within <a href="https://www2.hf.uio.no/damos">linear b tablets</a> | 
+	back to <a href="http://www.kinezika.info/index.php/chinese-japanese-linearb">www.kinezika.info</a>
+	</span>
+<p>	
+<div class="fb-like"></div>
+<br>
+<div class="fb-share-button" data-href="http://linear-b.kinezika.info" data-layout="button"></div>
+</div>
 <!-- Piwik -->
 <script type="text/javascript">
   var _paq = _paq || [];
