@@ -525,7 +525,11 @@ var li2la = {
 	$('#source').change(translate);
 	$('#source').keyup(translate);
 	$('#source-map').change(changeDictionary);
-	$('.key').click(function(e) { 
+	$('.key').click(function(e) {
+		if (converterMap = la2li )
+		{	$('#source-map').val('li2la');
+			converterMap = li2la;
+			}
 		var phoneme = $(this).attr('value');
 		$('#source').val($('#source').val()+ phoneme);
 		translate();		
