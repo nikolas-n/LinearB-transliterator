@@ -438,6 +438,70 @@ var li2la = {
 					<td><textarea id="destination" style="width: 100%;"></textarea></td> \
 				</tr> \
 			</table> \
+<br>a \
+<input type="button" value="𐀀" class="key" /> \
+<input type="button" value="𐀅" class="key" /> \
+<input type="button" value="𐀊" class="key" /> \
+<input type="button" value="𐀏" class="key" /> \
+<input type="button" value="𐀔" class="key" /> \
+<input type="button" value="𐀙" class="key" /> \
+<input type="button" value="𐀞" class="key" /> \
+<input type="button" value="𐀣" class="key" /> \
+<input type="button" value="𐀨" class="key" /> \
+<input type="button" value="𐀭" class="key" /> \
+<input type="button" value="𐀲" class="key" /> \
+<input type="button" value="𐀷" class="key" /> \
+<input type="button" value="𐀼" class="key" /> \
+<br>e \
+<input type="button" value="𐀁" class="key" /> \
+<input type="button" value="𐀆" class="key" /> \
+<input type="button" value="𐀋" class="key" /> \
+<input type="button" value="𐀐" class="key" /> \
+<input type="button" value="𐀕" class="key" /> \
+<input type="button" value="𐀚" class="key" /> \
+<input type="button" value="𐀟" class="key" /> \
+<input type="button" value="𐀤" class="key" /> \
+<input type="button" value="𐀩" class="key" /> \
+<input type="button" value="𐀮" class="key" /> \
+<input type="button" value="𐀳" class="key" /> \
+<input type="button" value="𐀸" class="key" /> \
+<input type="button" value="𐀽" class="key" /> \
+<br>i \
+<input type="button" value="𐀂" class="key" /> \
+<input type="button" value="𐀇" class="key" /> \
+<input type="button" value="𐀑" class="key" /> \
+<input type="button" value="𐀖" class="key" /> \
+<input type="button" value="𐀛" class="key" /> \
+<input type="button" value="𐀠" class="key" /> \
+<input type="button" value="𐀥" class="key" /> \
+<input type="button" value="𐀪" class="key" /> \
+<input type="button" value="𐀯" class="key" /> \
+<input type="button" value="𐀴" class="key" /> \
+<input type="button" value="𐀹" class="key" /> \
+<br>o \
+<input type="button" value="𐀃" class="key" /> \
+<input type="button" value="𐀈" class="key" /> \
+<input type="button" value="𐀍" class="key" /> \
+<input type="button" value="𐀒" class="key" /> \
+<input type="button" value="𐀗" class="key" /> \
+<input type="button" value="𐀜" class="key" /> \
+<input type="button" value="𐀡" class="key" /> \
+<input type="button" value="𐀦" class="key" /> \
+<input type="button" value="𐀫" class="key" /> \
+<input type="button" value="𐀰" class="key" /> \
+<input type="button" value="𐀵" class="key" /> \
+<input type="button" value="𐀺" class="key" /> \
+<input type="button" value="𐀿" class="key" /> \
+<br>u \
+<input type="button" value="𐀄" class="key" /> \
+<input type="button" value="𐀉" class="key" /> \
+<input type="button" value="𐀓" class="key" /> \
+<input type="button" value="𐀘" class="key" /> \
+<input type="button" value="𐀝" class="key" /> \
+<input type="button" value="𐀢" class="key" /> \
+<input type="button" value="𐀬" class="key" /> \
+<input type="button" value="𐀱" class="key" /> \
+<input type="button" value="𐀶" class="key" /> \
 		</div> \
 	';
 
@@ -461,5 +525,10 @@ var li2la = {
 	$('#source').change(translate);
 	$('#source').keyup(translate);
 	$('#source-map').change(changeDictionary);
+	$('.key').click(function(e) { 
+		var phoneme = $(this).attr('value');
+		$('#source').val($('#source').val()+ phoneme);
+		translate();		
+	});
   };
 })( jQuery );
