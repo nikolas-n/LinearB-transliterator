@@ -380,6 +380,7 @@ var li2la = {
      "\udc83": "equ",
     }
 };
+
 	var converterMap = la2li;
 
 	function doconvert(src) {
