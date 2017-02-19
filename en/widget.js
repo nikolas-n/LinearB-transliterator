@@ -423,14 +423,14 @@ var li2la = {
 	var htmlForm = ' \
 		<div class="lbt overlay"></div> \
 		<div class="lbt window"> \
-			<h4>Μεταγραφέας της Γραμμικής Β</h4> \
+			<h4>Linear B transliterator</h4> \
 			<hr /> \
 			<table style="width: 100%;"> \
 				<tr> \
 					<td> \
-					<select style="width: 100%;" id="source-map"> \
-						<option value="la2li">Λατινική Γραφή σε Γραμμική Β</options> \
-						<option value="li2la">Γραμμική Β σε Λατινική Γραφή</options> \
+					<select style="width: 70%;" id="source-map"> \
+						<option value="la2li">Latin to Linear B</options> \
+						<option value="li2la">Linear B to Latin</options> \
 					</select> \
 					</tr> \
 				<tr> \

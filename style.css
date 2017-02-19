@@ -18,12 +18,11 @@ body {background: url('bg.jpg') no-repeat;}
         display: none; /* don't show it '*/
 
         /* styling bellow */
-        background-color: black;
-	z-index: 1000;
+        	z-index: 1000;
 }
 
 .lbt.window {
-	margin-top: 3em;
+	margin-top: 2em;
 
         display: none; /* don't show it */
 
@@ -88,15 +87,31 @@ a:hover {
 span {
 }
 
-h2 {
+h4 {
 	margin-bottom: -1px
 }
 
 div#wrapper {
-	width: 700px;
+	width: 800px;
 	max-width: 90%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top:50px;
 }
 
 input {	font-family: "Noto Sans", "Noto Sans Linear B", sans-serif;}
+
+img#github {
+		position: absolute;
+		top: 0;
+		right: 0;
+		border: 0;
+		width:10%;
+	}
+
+h3#title {
+	border-bottom: 1px solid black;
+	padding-bottom: 5px;
+	}
+
+
