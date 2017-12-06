@@ -1,302 +1,66 @@
-﻿(function( $ ){
+(function( $ ){
 
-	var la2li = {
-		"1": {
-			"~": "𐄇",
-			"0": 
-			{
-				"~": "𐄐",
-				"0": {
-					"~": "𐄙",
-					"0": {
-						"~": "𐄢",
-						"0": "𐄫"
-					}
-				}
-			}
-		},
-		"2": {
-			"~": "𐄈",
-			"0": 
-			{
-				"~": "𐄑",
-				"0": {
-					"~": "𐄚",
-					"0": {
-						"~": "𐄣",
-						"0": "𐄬"
-					}
-				}
-			}
-		},
-		"3": {
-			"~": "𐄉",
-			"0": 
-			{
-				"~": "𐄒",
-				"0": {
-					"~": "𐄛",
-					"0": {
-						"~": "𐄤",
-						"0": "𐄭"
-					}
-				}
-			}
-		},
-		"4": {
-			"~": "𐄊",
-			"0": 
-			{
-				"~": "𐄓",
-				"0": {
-					"~": "𐄜",
-					"0": {
-						"~": "𐄥",
-						"0": "𐄮"
-					}
-				}
-			}
-		},
-		"5": {
-			"~": "𐄋",
-			"0": 
-			{
-				"~": "𐄔",
-				"0": {
-					"~": "𐄝",
-					"0": {
-						"~": "𐄦",
-						"0": "𐄯"
-					}
-				}
-			}
-		},
-		"6": {
-			"~": "𐄌",
-			"0": 
-			{
-				"~": "𐄕",
-				"0": {
-					"~": "𐄞",
-					"0": {
-						"~": "𐄧",
-						"0": "𐄰"
-					}
-				}
-			}
-		},
-		"7": {
-			"~": "𐄍",
-			"0": 
-			{
-				"~": "𐄖",
-				"0": {
-					"~": "𐄟",
-					"0": {
-						"~": "𐄨",
-						"0": "𐄱"
-					}
-				}
-			}
-		},
-		"8": {
-			"~": "𐄎",
-			"0": 
-			{
-				"~": "𐄗",
-				"0": {
-					"~": "𐄠",
-					"0": {
-						"~": "𐄩",
-						"0": "𐄲"
-					}
-				}
-			}
-		},
-		"9": {
-			"~": "𐄏",
-			"0": 
-			{
-				"~": "𐄘",
-				"0": {
-					"~": "𐄡",
-					"0": {
-						"~": "𐄪",
-						"0": "𐄳"
-					}
-				}
-			}
-		},
-		"a": {
-			"~": "𐀀",
-			"i": "𐁁",
-			"lv": "𐃅",
-			"mph": "𐃨",
-			"rom": "𐂑",
-			"u": "𐁂"
-		},
-		
-		"b": {
-			"i": 
-			{
-				"g": "𐃌",
-			},
-			"o": {
-				"s": 
-				{
-				"~": "𐀘",
-				"f": "𐂌",
-				"m": "𐂍"
-			}
-			}
-		},
-		
-		"c": {
-			"a": {
-				"p": {
-					"~": "𐁒",
-					"f": "𐂈",
-					"m": "𐂉",
-					"s": "𐃎"
-				}
-			},
-			
-			"e": {
-					"l": "𐀯",
-					"n": { "t": "𐄙"} ,
-					"r": {"v": "𐂂" }
-				
-			},
-			"u": {"m": {"i": {"n": "𐀓"}},
-				  "r": "𐃍"},
-			"y": {"p": "𐂒"}
-		},
-		
-		"d": {
-				"a": {
-					"~": "𐀅",
-					"g": "𐃉",
-				},
-				"e": {
-					"~": "𐀆",
-					"c": "𐄐",
-					"m": {
-						"i": {
-							"l": "𐄫",
-						}
-					}
-				},
-				"i": "𐀇",
-				"m": {
-					"i": {
-						"l": "𐄣",
-					}
-				},
-				"o": "𐀈",
-				"u": {
-					"~": "𐀉",
-					"c": "𐄚",
-					"m": {
-						"i": {
-							"l": "𐄬"
-						}
-					},
-					"o": "𐄈"
-					},
-				"w": {
-						"e": "𐁃",
-						"o": "𐁄" 
-				}
-			},
-			
-			"e": "𐀁",
-			"h": {"a":"𐁀"},
-			
-			"i": "𐀂",
+ var la2li = {
 
-			"j": {
-				"a": "𐀊",
-				"e": "𐀋",
-				"o": "𐀍"},		
-			
-			"k": {
-				"a": "𐀏",
-				"e": "𐀐",
-				"i": "𐀑",
-				"o": "𐀒",
-				"u":	"𐀓"		
-			},
-			"m": {
-				"a": "𐀔",
-				"e": "𐀕",
-				"i": "𐀖",
-				"o": "𐀗",
-				"u":	"𐀘"			
-			},
-			"n": {
-				"a": "𐀙",
-				"e": "𐀚",
-				"i": "𐀛",
-				"o": "𐀜",
-				"u":	"𐀝",
-				"w": {"a":"𐁅"}		
-			},
-			"o": "𐀃",
-			"p": {
-				"a": "𐀞",
-				"e": "𐀟",
-				"h": {"u":"𐁆"},
-				"i": "𐀠",
-				"o": "𐀡",
-				"t": {"e":"𐁇"},
-				"u":	"𐀢"			
-			},
-			"q": {
-				"a": "𐀣",
-				"e": "𐀤",
-				"i": "𐀥",
-				"o": "𐀦"
-			},
-			"r": {
-				"a": {"~" : "𐀨",
-						"i" : "𐁉"			
-			},
-				"e": "𐀩",
-				"i": "𐀪",
-				"o": "𐀫",
-				"u":	"𐀬",
-				"y": {"a" : "𐁈",
-				"o": "𐁊"}			
-			},
-			"s": {
-				"a": "𐀭",
-				"e": "𐀮",
-				"i": "𐀯",
-				"o": "𐀰",
-				"u":	"𐀱"			
-			},
-			"t": {
-				"a": "𐀲",
-				"e": "𐀳",
-				"i": "𐀴",
-				"o": "𐀵",
-				"u":	"𐀶",
-				"w": {"e" : "𐁌", "o" : "𐁍"},
-				"y": {"a": "𐁋"}			
-			},
-			"u": "𐀄",
-			"w": {
-				"a": "𐀷",
-				"e": "𐀸",
-				"i": "𐀹",
-				"o": "𐀺"
-			},
-			"z": {
-				"a": "𐀼",
-				"e": "𐀽",
-				"o": "𐀿"
-			}			
-	};
+   "1":{"~":"𐄇","0":{"~":"𐄐","0":{"~":"𐄙","0":{"~":"𐄢","0":"𐄫"}}}},
+
+   "2":{"~":"𐄈","0":{"~":"𐄑","0":{"~":"𐄚","0":{"~":"𐄣","0":"𐄬"}}}},
+
+   "3":{"~":"𐄉","0":{"~":"𐄒","0":{"~":"𐄛","0":{"~":"𐄤","0":"𐄭"}}}},
+
+   "4":{"~":"𐄊","0":{"~":"𐄓","0":{"~":"𐄜","0":{"~":"𐄥","0":"𐄮"}}}},
+
+   "5":{"~":"𐄋","0":{"~":"𐄔","0":{"~":"𐄝","0":{"~":"𐄦","0":"𐄯"}}}},
+
+   "6":{"~":"𐄌","0":{"~":"𐄕","0":{"~":"𐄞","0":{"~":"𐄧","0":"𐄰"}}}},
+
+   "7":{"~":"𐄍","0":{"~":"𐄖","0":{"~":"𐄟","0":{"~":"𐄨","0":"𐄱"}}}},
+
+   "8":{"~":"𐄎","0":{"~":"𐄗","0":{"~":"𐄠","0":{"~":"𐄩","0":"𐄲"}}}},
+
+   "9":{"~":"𐄏","0":{"~":"𐄘","0":{"~":"𐄡","0":{"~":"𐄪","0":"𐄳"}}}},
+
+   "a": { "~": "𐀀", "i": "𐁁", "lv": "𐃅","mph": "𐃨","rom": "𐂑","u": "𐁂" },
+  
+   "b": { "i": {"g": "𐃌",},"o": {"s": {"~": "𐀘","f": "𐂌","m": "𐂍"}}},
+  
+   "c": {"a": {"p": {"~": "𐁒","f": "𐂈","m": "𐂉","s": "𐃎"}},"e": {"l": "𐀯","n": { "t": "𐄙"} ,"r": {"v": "𐂂" }},"u": {"m": {"i": {"n": "𐀓"}},"r": "𐃍"},"y": {"p": "𐂒"}},     
+
+   "d": {"a": {"~": "𐀅","g": "𐃉",},"e": {"~": "𐀆","c": "𐄐","m": {"i": {"l": "𐄫",}}},"i": "𐀇","m": {"i": {"l": "𐄣",}},"o": "𐀈","u": {"~": "𐀉","c": "𐄚","m": {"i": {"l": "𐄬"}},"o": "𐄈"},"w": {"e": "𐁃","o": "𐁄" }},
+   
+   "e": "𐀁",
+
+   "h": {"a":"𐁀"},
+   
+   "i": "𐀂",
+
+   "j": {"a": "𐀊","e": "𐀋","o": "𐀍"},  
+   
+   "k": {"a": "𐀏","e": "𐀐","i": "𐀑","o": "𐀒","u": "𐀓"},
+
+   "m": {"a": "𐀔","e": "𐀕","i": "𐀖","o": "𐀗","u": "𐀘"},
+
+   "n": {"a": "𐀙","e": "𐀚","i": "𐀛","o": "𐀜","u": "𐀝","w": {"a":"𐁅"}},
+
+   "o": "𐀃",
+   
+   "p": {"a": "𐀞","e": "𐀟","h": {"u":"𐁆"},"i": "𐀠","o": "𐀡","t": {"e":"𐁇"},"u": "𐀢"},
+
+   "q": {"a": "𐀣","e": "𐀤","i": "𐀥","o": "𐀦"},
+
+   "r": {"a": {"~" : "𐀨","i" : "𐁉"},"e": "𐀩","i": "𐀪","o": "𐀫","u": "𐀬","y": {"a" : "𐁈","o": "𐁊"}},
+
+   "s": {"a": "𐀭","e": "𐀮","i": "𐀯","o": "𐀰","u": "𐀱"},
+
+   "t": {"a": "𐀲","e": "𐀳","i": "𐀴","o": "𐀵","u": "𐀶","w": {"e" : "𐁌", "o" : "𐁍"},"y": {"a": "𐁋"}},
+
+   "u": "𐀄",
+   
+   "w": {"a": "𐀷","e": "𐀸","i": "𐀹","o": "𐀺"},
+   
+   "z": {"a": "𐀼","e": "𐀽","o": "𐀿"}
+
+ };
 
 var li2la = {
     "\ud800" : 
@@ -381,64 +145,64 @@ var li2la = {
     }
 };
 
-	var converterMap = la2li;
+ var converterMap = la2li;
 
-	function doconvert(src) {
-		function traverse(i, chars, ws) {
-			var c = src[i];
+ function doconvert(src) {
+  function traverse(i, chars, ws) {
+   var c = src[i];
 
-		 	if (c in chars) {
-		 		if (chars[c] instanceof Array)
-		 			return (ws ? chars[c][1] : chars[c][0]) + traverse(i + 1, converterMap);
-		 		else if (chars[c] instanceof Object)
-		 			return traverse(i + 1, chars[c], ws);
-		 		else
-					return chars[c] + traverse(i + 1, converterMap);
-			}
-			else if ('~' in chars) {
-				if (chars['~'] instanceof Array)
-					return (ws ? chars['~'][1] : chars['~'][0]) + traverse(i, converterMap);
-				else
-					return chars['~'] + traverse(i, converterMap);
-			}				
-			else if (c) {
-				return c + traverse(i + 1, converterMap, c == ' ');
-			}
-			return "";
-		}
-		return traverse(0, converterMap, true);
-	}
-
-
-	function translate() {
-		var src = $("#source").val();
-		$("#destination").val(doconvert(src));
-	}
+    if (c in chars) {
+     if (chars[c] instanceof Array)
+      return (ws ? chars[c][1] : chars[c][0]) + traverse(i + 1, converterMap);
+     else if (chars[c] instanceof Object)
+      return traverse(i + 1, chars[c], ws);
+     else
+     return chars[c] + traverse(i + 1, converterMap);
+   }
+   else if ('~' in chars) {
+    if (chars['~'] instanceof Array)
+     return (ws ? chars['~'][1] : chars['~'][0]) + traverse(i, converterMap);
+    else
+     return chars['~'] + traverse(i, converterMap);
+   }    
+   else if (c) {
+    return c + traverse(i + 1, converterMap, c == ' ');
+   }
+   return "";
+  }
+  return traverse(0, converterMap, true);
+ }
 
 
-	function changeDictionary() {
-		converterMap = eval($('#source-map').val());
-		translate();
-	}
+ function translate() {
+  var src = $("#source").val();
+  $("#destination").val(doconvert(src));
+ }
 
-	var htmlForm = ' \
-		<div class="lbt overlay"></div> \
-		<div class="lbt window"> \
-			<h4>Μεταγραφέας της Γραμμικής Β</h4> \
-			<hr /> \
-			<table style="width: 100%;"> \
-				<tr> \
-					<td> \
-					<select style="width: 100%;" id="source-map"> \
-						<option value="la2li">Λατινική Γραφή σε Γραμμική Β</options> \
-						<option value="li2la">Γραμμική Β σε Λατινική Γραφή</options> \
-					</select> \
-					</tr> \
-				<tr> \
-					<td><textarea id="source" style="width: 100%;"></textarea></td> \
-					<td><textarea id="destination" style="width: 100%;"></textarea></td> \
-				</tr> \
-			</table> \
+
+ function changeDictionary() {
+  converterMap = eval($('#source-map').val());
+  translate();
+ }
+
+ var htmlForm = ' \
+  <div class="lbt overlay"></div> \
+  <div class="lbt window"> \
+   <h4>Μεταγραφέας της Γραμμικής Β</h4> \
+   <hr /> \
+   <table style="width: 100%;"> \
+    <tr> \
+     <td> \
+     <select style="width: 100%;" id="source-map"> \
+      <option value="la2li">Λατινική Γραφή σε Γραμμική Β</options> \
+      <option value="li2la">Γραμμική Β σε Λατινική Γραφή</options> \
+     </select> \
+     </tr> \
+    <tr> \
+     <td><textarea id="source" style="width: 100%;"></textarea></td> \
+     <td><textarea id="destination" style="width: 100%;"></textarea></td> \
+    </tr> \
+   </table> \
 <br>a \
 <input type="button" value="𐀀" class="key" /> \
 <input type="button" value="𐀅" class="key" /> \
@@ -503,37 +267,37 @@ var li2la = {
 <input type="button" value="𐀬" class="key" /> \
 <input type="button" value="𐀱" class="key" /> \
 <input type="button" value="𐀶" class="key" /> \
-		</div> \
-	';
+  </div> \
+ ';
 
   $.fn.lbt = function(options) {
-	var settings = $.extend({}, options);
+ var settings = $.extend({}, options);
 
-	if (settings['window-holder']) {
-		$(document).ready(onResize);
-		$(window).resize(onResize);
+ if (settings['window-holder']) {
+  $(document).ready(onResize);
+  $(window).resize(onResize);
 
-		$(settings['window-holder']).html(htmlForm);
-		$('.lbt.overlay').click(hidePopup);
-		this.click(showPopup);
-	}
-	else {
-	        this.html(htmlForm);
-		$('.lbt.window').show();
-		$('.lbt.window').css("position", "relative");
-	}
+  $(settings['window-holder']).html(htmlForm);
+  $('.lbt.overlay').click(hidePopup);
+  this.click(showPopup);
+ }
+ else {
+         this.html(htmlForm);
+  $('.lbt.window').show();
+  $('.lbt.window').css("position", "relative");
+ }
 
-	$('#source').change(translate);
-	$('#source').keyup(translate);
-	$('#source-map').change(changeDictionary);
-	$('.key').click(function(e) {
-		if (converterMap = la2li )
-		{	$('#source-map').val('li2la');
-			converterMap = li2la;
-			}
-		var phoneme = $(this).attr('value');
-		$('#source').val($('#source').val()+ phoneme);
-		translate();		
-	});
+ $('#source').change(translate);
+ $('#source').keyup(translate);
+ $('#source-map').change(changeDictionary);
+ $('.key').click(function(e) {
+  if (converterMap = la2li )
+  { $('#source-map').val('li2la');
+   converterMap = li2la;
+   }
+  var phoneme = $(this).attr('value');
+  $('#source').val($('#source').val()+ phoneme);
+  translate();  
+ });
   };
 })( jQuery );
