@@ -145,6 +145,67 @@ var li2la = {
     }
 };
 
+var cy2la = {
+"\uD802":
+{
+  "\uDC00": "a",
+  "\uDC01": "e",
+  "\uDC02": "i",
+  "\uDC03": "o",
+  "\uDC04": "u",
+  "\uDC32": "wa",
+  "\uDC33": "we",
+  "\uDC34": "wi",
+  "\uDC35": "wo",
+  "\uDC3C": "za",
+  "\uDC3F": "zo",
+  "\uDC05": "ja",
+  "\uDC08": "jo",
+  "\uDC0A": "ka",
+  "\uDC0B": "ke",
+  "\uDC0C": "ki",
+  "\uDC0D": "ko",
+  "\uDC0E": "ku",
+  "\uDC0F": "la",
+  "\uDC10": "le",
+  "\uDC11": "li",
+  "\uDC12": "lo",
+  "\uDC13": "lu",
+  "\uDC14": "ma",
+  "\uDC15": "me",
+  "\uDC16": "mi",
+  "\uDC17": "mo",
+  "\uDC18": "mu",
+  "\uDC19": "na",
+  "\uDC1A": "ne",
+  "\uDC1B": "ni",
+  "\uDC1C": "no",
+  "\uDC1D": "nu",
+  "\uDC37": "kse",
+  "\uDC38": "ksi",
+  "\uDC1E": "pa",
+  "\uDC1F": "pe",
+  "\uDC20": "pi",
+  "\uDC21": "po",
+  "\uDC22": "pu",
+  "\uDC23": "ra",
+  "\uDC24": "re",
+  "\uDC25": "ri",
+  "\uDC26": "ro",
+  "\uDC27": "ru",
+  "\uDC28": "sa",
+  "\uDC29": "se",
+  "\uDC2A": "si",
+  "\uDC2B": "so",
+  "\uDC2C": "su",
+  "\uDC2D": "ta",
+  "\uDC2E": "te",
+  "\uDC2F": "ti",
+  "\uDC30": "to",
+  "\uDC31": "tu",
+  }
+};
+
  var converterMap = la2li;
 
  function doconvert(src) {
