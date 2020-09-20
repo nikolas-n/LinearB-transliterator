@@ -13,7 +13,7 @@
 </head>
 <body>
 	<div id="wrapper">
-<div id="languageswitch">el | <a href="en">en</a> | <a href="es">es</a> | <a href="ru">ru</a></div>
+<div id="languageswitch">el | <a href="en">en</a> | <a href="es">es</a></div>
 <h3 id="title">Εργαλείο για τη μεταγραφή της Γραμμικής Β,<br>της γραφής της μυκηναϊκής ελληνικής γλώσσας</h3>
 
 <p>

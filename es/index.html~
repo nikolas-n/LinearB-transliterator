@@ -13,7 +13,7 @@
 </head>
 <body>
 	<div id="wrapper">
-<div id="languageswitch"><a href="../">el</a> | <a href="../en">en</a> | es | <a href="../ru">ru</a></div>
+<div id="languageswitch"><a href="../">el</a> | <a href="../en">en</a> | es</div>
 <h3 id="title">Herramienta para transcribir Lineal B,<br>la primera escritura de la lengua griega micénica.</h3>
 
 <p>

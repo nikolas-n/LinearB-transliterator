@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Linear B transliterator - Transliterador para Lineal B</title>
+	<title>Linear B transliterator - Μεταγραφέας για τη Γραμμική Β</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta property="og:url" content="http://linear-b.kinezika.com/es" />
-	<meta property="og:title" content="Linear B transliterator - Transliterador para Lineal B" />
-	<meta property="og:description" content="Transliteración fonética del latino a Lineal B y viceversa" />
+	<meta property="og:url" content="http://linear-b.kinezika.com/en" />
+	<meta property="og:title" content="Linear B transliterator - Μεταγραφέας για τη Γραμμική Β" />
+	<meta property="og:description" content="Phonetic transliteration from Latin to Linear B and vice versa" />
 	<meta property="og:image" content="http://linear-b.kinezika.com/woko.jpg" />
-	<meta property="og:updated_time" content="2020-01-01T22:42:13+00:00" />
+        <meta property="og:updated_time" content="2020-01-01T22:42:13+00:00" />
 	<link rel="stylesheet" type="text/css" href="../style.css" />
 	<link rel="shortcut icon" href="../favicon.ico" />	
 </head>
 <body>
 	<div id="wrapper">
-<div id="languageswitch"><a href="../">el</a> | <a href="../en">en</a> | es | <a href="../ru">ru</a></div>
-<h3 id="title">Herramienta para transcribir Lineal B,<br>la primera escritura de la lengua griega micénica.</h3>
+<div id="languageswitch"><a href="../">el</a> | en | <a href="../es">es</a></div>
+<h3 id="title">Online tool for transliterating Linear B,<br>the first writing system of the mycenaean Greek language</h3>
+
 
 <p>
-Lineal B es la primera escritura del idioma griego, de acuerdo con los datos que tenemos hasta ahora. Es la escritura silábica que se utilizó en varias partes de Grecia durante el período micénico, incluyendo Pilos, Tebas, Íklaina, Eleusis, Cnosos.
+The Linear B script is the first attested writing system of the Greek language. It is a syllabic script used in various places all over Greece during the mycenaean period. Among the places are Pylos, Thebes, Iklaina, Eleusis and Knossos.
 </p>
-
 <p>
-Este sitio tiene una herramienta para transcribir la escritura latina al Lineal B y viceversa. Cada sílaba corresponde a un silabograma como se muestra en la tabla más abajo. Los números se transcriben también: para hacer 55555, primero escribimos 50000, luego 5000, y así sucesivamente, es decir 500005000500505.
+This website offers a tool for transliterating latin script to Linear B and vice versa. Every syllable corresponds to a syllabogram as one can see in the table below. Furthermore, numbers are also transliterated: e.g. to get 55555 in Linear B, you have to first write 50000, then 5000 and so on, i.e. 500005000500505.
 </p>
-
 <p>
-<a href="https://www.kinezika.com/node/4">Aquí</a>, puede encontrar un artículo sobre cómo Lineal B puede relacionarse con chino y japonés.</p>
+<a href="https://www.kinezika.com/node/4">Here</a>, you may find an input method for Linear B on Linux.</p> 
 	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
 	  var js, fjs = d.getElementsByTagName(s)[0];
@@ -114,7 +113,7 @@ function insertText(txt, elemID) {
 <input type="button" value="𐀬" onClick="insertText('𐀬','source');" />
 <input type="button" value="𐀱" onClick="insertText('𐀱','source');" />
 <input type="button" value="𐀶" onClick="insertText('𐀶','source');" />
-	<h3>Silabogramas</h3>
+	<h3>Syllabograms</h3>
 	<pre>
 	-a		-e		-i		-o		-u	
 	𐀀	a	𐀁	e	𐀂	i	𐀃	o	𐀄	u
@@ -132,13 +131,13 @@ w-	𐀷	wa	𐀸	we	𐀹	wi	𐀺	wo
 z-	𐀼	za	𐀽	ze			𐀿	zo		
 </pre>
 	<span>
-    <a href="../lexicon.html">lexicón</a> |
-	<a href="https://es.wikipedia.org/wiki/Lineal_B">wikipedia</a> | 
-	<a href="https://www.google.com/get/noto/#sans-linb">fuente</a> | 
-	<a href="http://users.teilar.gr/~g1951d/">más fuentes</a><br>
-	buscar en <a href="https://www2.hf.uio.no/damos">signos de Lineal B</a> | 
-	<a href="http://linearb.xyz">buscar más</a><br>
-	volver a <a href="https://www.kinezika.com/node/4">www.kinezika.com</a>
+    <a href="../lexicon.html">lexicon</a> |
+	<a href="https://en.wikipedia.org/wiki/Linear_B">wikipedia</a> | 
+	<a href="https://www.google.com/get/noto/#sans-linb">font</a> | 
+	<a href="http://users.teilar.gr/~g1951d/">more fonts</a><br>
+	search within <a href="https://www2.hf.uio.no/damos">linear b tablets</a> | 
+	<a href="http://linearb.xyz">search more</a><br>
+	back to <a href="https://www.kinezika.com/node/4">www.kinezika.com</a>
 	</span>
 <p>	
 <div class="fb-like"></div>
