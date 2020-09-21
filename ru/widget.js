@@ -430,7 +430,7 @@ var li2la = {
 					<td> \
 					<select style="width: 110%;" id="source-map"> \
 						<option value="la2li">С латыни на линейное письмо Б</options> \
-						<option value="li2la">С линейное письмо Б на латыни</options> \
+						<option value="li2la">С линейного Б на латынь</options> \
 					</select> \
 					</tr> \
 				<tr> \
