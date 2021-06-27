@@ -7,7 +7,7 @@
   src: url('NotoSansLinearB-Regular.ttf');
 }
 
-body {background: url('bg.jpg') no-repeat;}
+body {background: url('background_lineara.jpg') no-repeat;}
 
 .lbt.overlay {
         position: absolute; /* important */
